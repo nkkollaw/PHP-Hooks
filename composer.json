@@ -1,0 +1,27 @@
+{
+    "name": "nkkollaw/php-hooks",
+    "description": "Standalone Hook / Event helper library for PHP, forked from https://github.com/ManifestWebDesign/PHP-Hooks/",
+    "version": "0.1.0",
+    "type": "library",
+    "keywords": ["hooks", "events", "PHP"],
+    "license": "?",
+    "authors": [
+        {
+            "name": "Niccolo Brogi",
+            "email": "me@nbrogi.com",
+            "homepage": "http://nbrogi.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nkkollaw/php-hooks/issues",
+        "irc": "",
+        "source": "https://github.com/nkkollaw/php-hooks"
+    },
+    "require-dev": {
+    },
+	"autoload": {
+        "psr-0" : {
+            "nkkollaw\\Hook" : "src"
+        }
+    }
+}
